@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   float: left;
 }
 
+
 .nav-menu a {
   display: block;
   position: relative;
@@ -130,7 +131,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #a2cce3;
+  color: #056ba1;
+  text-decoration: none;
+}
+.nav-menu a:hover, .nav-menu .contacto > a, .nav-menu li:hover > a {
+  color: #ffed4f;
   text-decoration: none;
 }
 
@@ -170,6 +175,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #68A4C4;
 }
+
 
 .nav-menu .drop-down > a:after {
   content: "\ea99";
@@ -329,7 +335,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(41,9,41, 0.8), rgba(41,9,41, 0.6)), url("/img/Fondo_Portada.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -342,7 +348,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #290929;
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -402,11 +408,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #ffed4f;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
+  background: #ffed4f;
   color: #fff;
   text-decoration: none;
 }
