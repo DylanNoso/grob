@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #ffed4f;
 }
 
 a:hover {
-  color: #45beff;
+  color: #fde400;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: #290929c5;
   height: 60px;
   padding: 10px 0;
 }
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(41,9,41, 0.8), rgba(41,9,41, 0.6)), url("/img/Fondo_Portada.jpg") center top no-repeat;
+  background: linear-gradient(to right, rgba(41,9,41, 0.0001), rgba(41,9,41, 0.0001)), url("/img/Fondo_Portada.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -1456,7 +1456,7 @@ section {
   left: 0;
   bottom: -40px;
   right: 0;
-  height: 40px;
+  height: 90px;
   opacity: 0;
   transition: bottom ease-in-out 0.4s;
   text-align: center;
@@ -1805,7 +1805,7 @@ section {
 }
 
 .blog .entry .entry-footer i {
-  color: #4c99c1;
+  color: #5c1c57;
   display: inline;
 }
 
@@ -2187,7 +2187,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #290929;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2238,11 +2238,11 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #468db3;
+  background:#290929;;
 }
 
 #footer .footer-top {
-  background: #0d2735;
+  background: #290929;
   border-top: 1px solid #17455e;
   border-bottom: 1px solid #123649;
   padding: 60px 0 30px 0;
@@ -2268,6 +2268,16 @@ section {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
+
+.bx {
+  font-size: 60px;
+  line-height: 60px;
+  width: 1.2857142857em;
+  height: .8em;
+  margin-top: -.2em!important;
+  vertical-align: middle;
+}
+
 
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -2337,6 +2347,7 @@ section {
 }
 
 #footer .footer-top .footer-contact {
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 
