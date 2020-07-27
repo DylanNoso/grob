@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background: #290929;
 }
 
 #header.header-transparent {
@@ -580,7 +580,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #f3f8fa;
+  background-color: #ffed4f88;
   min-height: 40px;
 }
 
@@ -648,11 +648,10 @@ section {
   width: 72px;
   height: 72px;
 }
-
-.services .icon i {
-  font-size: 36px;
-  line-height: 1;
+.services .icon img{
+  margin-top: -20px;
 }
+
 
 .services .title {
   font-weight: 700;
@@ -674,48 +673,36 @@ section {
   background: #fceef3;
 }
 
-.services .icon-box-pink .icon i {
-  color: #ff689b;
-}
 
 .services .icon-box-pink:hover {
-  border-color: #ff689b;
+  border-color: #fde400;
 }
 
 .services .icon-box-cyan .icon {
   background: #e6fdfc;
 }
 
-.services .icon-box-cyan .icon i {
-  color: #3fcdc7;
-}
 
 .services .icon-box-cyan:hover {
-  border-color: #3fcdc7;
+  border-color: #fde400;
 }
 
 .services .icon-box-green .icon {
   background: #eafde7;
 }
 
-.services .icon-box-green .icon i {
-  color: #41cf2e;
-}
 
 .services .icon-box-green:hover {
-  border-color: #41cf2e;
+  border-color: #fde400;
 }
 
 .services .icon-box-blue .icon {
   background: #e1eeff;
 }
 
-.services .icon-box-blue .icon i {
-  color: #2282ff;
-}
 
 .services .icon-box-blue:hover {
-  border-color: #2282ff;
+  border-color: #fde400;
 }
 
 /*--------------------------------------------------------------
@@ -1283,15 +1270,15 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  color: #444;
+  color: #280928;
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid #fff;
   font-family: "Roboto", sans-serif;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  border-color: #68A4C4;
-  color: #68A4C4;
+  border-color: #fde400;
+  color: #280928;
 }
 
 .portfolio .portfolio-item {
