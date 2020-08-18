@@ -675,7 +675,8 @@ section {
 
 
 .services .icon-box-pink:hover {
-  border-color: #fde400;
+  border: solid 3px #fde400;
+
 }
 
 .services .icon-box-cyan .icon {
