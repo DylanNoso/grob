@@ -628,7 +628,7 @@ section {
 }
 
 .services .icon-box {
-  padding: 30px;
+  padding: 35px;
   position: relative;
   overflow: hidden;
   margin: 0  0 40px 0;
@@ -681,11 +681,12 @@ section {
 
 .services .icon-box-cyan .icon {
   background: #e6fdfc;
+  
 }
 
 
 .services .icon-box-cyan:hover {
-  border-color: #fde400;
+  border: solid 3px #fde400;
 }
 
 .services .icon-box-green .icon {
@@ -694,7 +695,7 @@ section {
 
 
 .services .icon-box-green:hover {
-  border-color: #fde400;
+  border: solid 3px #fde400;
 }
 
 .services .icon-box-blue .icon {
@@ -703,7 +704,7 @@ section {
 
 
 .services .icon-box-blue:hover {
-  border-color: #fde400;
+  border: solid 3px #fde400;
 }
 
 /*--------------------------------------------------------------
