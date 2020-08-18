@@ -628,7 +628,7 @@ section {
 }
 
 .services .icon-box {
-  padding: 35px;
+  padding: 31px;
   position: relative;
   overflow: hidden;
   margin: 0  0 40px 0;
@@ -640,7 +640,7 @@ section {
 }
 
 .services .icon {
-  margin: 0 auto 20px auto;
+  margin: 0 auto 10px auto;
   padding-top: 17px;
   display: inline-block;
   text-align: center;
